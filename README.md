@@ -1,12 +1,13 @@
-# Notebooks
-A collection of Jupyter Notebook tutorials on anomaly detection, forecasting, and InfluxDB.
+# Analyze time series data
 
+Analyze and test your time series data using Jupyter Notebook tutorials (.ipynb files) and corresponding sample data (.csv files). We include tutorials and sample data for the following topics:
 
-## About ADTK: 
+- [How to generate time series data](/notebooks/Generate_Time_Series.ipynb)
+- [How to get started with InfluxDB and Pandas](/notebooks/Getting_Started_with_InfluxDB_and_Pandas.ipynb)
 
-### What is it?
-Anomaly Detection Toolkit (ADTK) is a Python package for unsupervised / rule-based time series anomaly detection.
+- Anomaly detection:
+  - For [multiple time series](/tree/Anomaly_Detection/Multiple%20time%20series), including BIRCH, KMEANS, and MAD.
+  - For [single time series](/tree/Anomaly_Detection/Single%20time%20series), including Autoregression, LevelShiftAD, and SeasonalAD
 
-### Why are we using it? 
-
-"This package offers a set of common detectors, transformers and aggregators with unified APIs, as well as pipe classes that connect them together into a model. It also provides some functions to process and visualize time series and anomaly events." — [ADTK Docs](https://adtk.readthedocs.io/en/stable/)
+- [Forecasting](/tree/Forecasting), including FBProphet and LSTM
+  

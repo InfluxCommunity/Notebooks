@@ -13,7 +13,7 @@ Analyze your time series data and experiment with forecasting and anomaly detect
   - For [multiple time series](/Anomaly_Detection/Multiple_time_series), including BIRCH, KMEANS, and Median Absolute Deviation(MAD).
   - For [single time series](/Anomaly_Detection/Single_time_series), including Autoregression, LevelShiftAD, and SeasonalAD
 
-- [Forecasting](/Forecasting), including [FBProphet](https://facebook.github.io/prophet/) and LSTM with [Keras](https://keras.io/)
+- [Forecasting](/Forecasting), including [FBProphet](https://facebook.github.io/prophet/), LSTM with [Keras](https://keras.io/), and [statsmodels' Holt's Method](https://www.statsmodels.org/stable/examples/notebooks/generated/exponential_smoothing.html#Holt's-Method). 
  
 
 ## Set up this repo
@@ -37,6 +37,6 @@ After you analyze your time series data with notebooks and select the forecastin
 
 This repo is just a sample of some of the many algorithms, approaches, and tools to time series forecasting and anomaly detection. Here are additional ML solutions that might interest the reader:
 
-- [STUMPY](https://github.com/TDAmeritrade/stumpy): "A powerful library that efficiently computes the [matrix profile](https://stumpy.readthedocs.io/en/latest/Tutorial_The_Matrix_Profile.html) of a time series, which can be used for a variety of time series data mining tasks.
+- [STUMPY](https://github.com/TDAmeritrade/stumpy): A powerful library that efficiently computes the [matrix profile](https://stumpy.readthedocs.io/en/latest/Tutorial_The_Matrix_Profile.html) of a time series, which can be used for a variety of time series data mining tasks.
 - [scikit-multiflow](https://scikit-multiflow.github.io/): A machine learning package for streaming data in Python, especially apt for clustering. 
 - [InfluxDB Interpreter for Apache Zeppelin](https://github.com/apache/zeppelin/tree/master/influxdb): Apache Zeppelin is another web-based notebook similar to Jupyter Notebooks. Zeppelin has built in [Spark](https://spark.apache.org/) integration. Zeppelin and the InfluxDB interpreter enables easy access to and parallelization of big time series data for quick analysis on large volumes of data. 

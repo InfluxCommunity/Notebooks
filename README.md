@@ -29,9 +29,9 @@ After cloning this repo, [run Jupyter Notebook](https://jupyter.readthedocs.io/e
 
 ## Implementation Options and Recommendations 
 
-After you analyze your time series data with notebooks and select the forecasting or anomaly detection approach that works for you. It's time to implement your solution in production. The following resources could be useful to you: 
+After you analyze your time series data with notebooks and select the forecasting or anomaly detection approach that works for you, it's time to implement your solution in production. The following resources could be useful in that next step: 
 - Using the [http.post()](https://docs.influxdata.com/influxdb/v2.0/reference/flux/stdlib/http/post/) function in a [task](https://docs.influxdata.com/influxdb/v2.0/process-data/manage-tasks/) in combination with a serverless compute solution (like [aws lambda](https://aws.amazon.com/lambda/) for example) to run your code. 
-- Using the [Telegraf Execd processor plugin](https://github.com/influxdata/telegraf/tree/master/plugins/processors/execd) to run an external program. Please see this example of Machine Learning with the [Telegraf Execd processor plugin](https://github.com/influxdata/tg-brew-anomaly) for more details. 
+- Using the [Telegraf Execd processor plugin](https://github.com/influxdata/telegraf/tree/master/plugins/processors/execd) to run an external program. Please see this example of [Machine Learning with the Telegraf Execd processor plugin](https://github.com/influxdata/tg-brew-anomaly) for more details. 
 
 ## Additional Resources 
 

@@ -18,7 +18,7 @@ Analyze your time series data and experiment with forecasting and anomaly detect
 
 ## Set up this repo
 
-These instructions are written for InfluxDB OSS 2.0 release candidate 0 and later or InfluxDB Cloud. If you're using InfluxDB Cloud make sure to change your URL appropriately.  
+These instructions are written for InfluxDB OSS 2.0 (starting with release candidate 0 and later) or InfluxDB Cloud. If you're using InfluxDB Cloud make sure to change your URL appropriately.  
 
 Installations of Python can get a bit tricky; different versions of the language, as well as projects which require different versions of installed libraries, can quickly lead to conflicts. Using a virtual environment is reccommended. Please consider looking into additional tooling like [virtualenv](https://pypi.python.org/pypi/virtualenv) or [pyenv](https://github.com/pyenv/pyenv) might be useful.
 

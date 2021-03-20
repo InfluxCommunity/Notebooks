@@ -22,7 +22,7 @@ ipykernel==5.3.4
 ipython==7.17.0
 ipython-genutils==0.2.0
 jedi==0.17.2
-Jinja2==2.11.2
+Jinja2==2.11.3
 jitcdde==1.4.0
 jitcxde-common==1.4.1
 joblib==0.16.0

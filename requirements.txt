@@ -25,7 +25,7 @@ jedi==0.17.2
 Jinja2==2.11.2
 jitcdde==1.4.0
 jitcxde-common==1.4.1
-joblib==0.16.0
+joblib==1.2.0
 jsonschema==3.2.0
 jupyter-client==6.1.6
 jupyter-core==4.6.3

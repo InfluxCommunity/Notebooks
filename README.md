@@ -5,8 +5,9 @@ Jupyter Notebooks are wonderful because they provide a way to share code, explan
 Analyze your time series data and experiment with forecasting and anomaly detection algorithms using Jupyter Notebook tutorials (.ipynb files) and corresponding sample data (.csv files). We include tutorials and sample data for the following topics:
 
 - [How to generate time series data](Generate_Time_Series.ipynb)
-- [How to get started with InfluxDB and Python](Getting_Started_with_InfluxDB_and_Python.ipynb)
-- [How to get started with InfluxDB and Pandas](Getting_Started_with_InfluxDB_and_Pandas.ipynb)
+- [How to get started with InfluxDB OSS and Python](Getting_Started_with_InfluxDB_and_Python.ipynb)
+- [How to get started with InfluxDB OSS and Pandas](Getting_Started_with_InfluxDB_and_Pandas.ipynb)
+- [How to get started with InfluxDB Cloud powered by IOx and Pandas with Flight SQL](Getting_Started_with_InfluxDB_and_Pandas.ipynb)
 - [How to get started with Jupyter and Flux](Getting_Started_with_Jupyter_and_Flux.ipynb)
 
 - [Anomaly detection](/Anomaly_Detection):
